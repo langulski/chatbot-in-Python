@@ -1,0 +1,93 @@
+{
+    "frases": [
+      {
+        "tag": "cumprimentos",
+        "patterns": [
+          "Olá",
+          "oi",
+          "Como vai",
+          "tem alguém ai?",
+          "eae",
+          "bom dia",
+          "boa noite",
+          "boa tarde",
+          "dae"
+        
+        ],
+        "responses": [
+          "Olá :-)",
+          "Olá, obrigado por visitar!",
+          "Olá, como posso ajuda-lo?",
+          "tem algo em que posso ajudar?",
+          "Em que poderia ser util",
+          "O que está procurando?"
+        ]
+      },
+      {
+        "tag": "adeuses",
+        "patterns": ["Tchal", "Até mais", "xau","até","falow","flw"],
+        "responses": [
+          "Até mais, obrigado por visitar!",
+          "Tenha um bom dia",
+          "Tchal! até a próxima visita."
+        ]
+      },
+      {
+        "tag": "Obrigado",
+        "patterns": ["Obrigado", "Muito obrigado", "Isso ajudou", "Agradecido"],
+        "responses": ["Fico feliz em ajudar!", "Por nada!", "Sem problemas!"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "O que vocês vendem?",
+          "Quais os tipos de itens que vendem?",
+          "O que anunciam?",
+          "O que fazem"
+          
+        ],
+        "responses": [
+          "Nós vendemos bolos e cookies =3",
+          "Nós vendemos bolos e cookies =3"
+        ]
+      },
+      {
+        "tag": "pagamentos",
+        "patterns": [
+          "Vocês aceitam cartão de crédito?",
+          "Vocês aceitam Mastercard?",
+          "Posso pagar por paypal?",
+          "Aceitam somente dinheiro?"
+        ],
+        "responses": [
+          "Nós aceitamos Mastercard, Paypal, PIX e dinheiro",
+          "Nós aceitamos Mastercard, Paypal, PIX e dinheiro"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Quanto tempo o delivery demora?",
+          "Quando demora para chegar?",
+          "Quando que chega meu bolo?",
+          "Quando que chega meu cookie?"
+        ],
+        "responses": [
+          "O envio demora entre 1 a 3 dias ;)",
+          "O envio demora entre 1 a 3 dias ;)"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Me conte uma piada",
+          "Fale algo engraçado",
+          "Conhece uma piada?"
+        ],
+        "responses": [
+          "Qual é o bolo que causa sofrimento durante anos depois de ser comido? O bolo de casamento KAKAKKAKA ",
+          "Pergunta pra sua mae se ela quer bolo. Bolo que bolo? o Bolo de ser nora kkkkkkk"
+        ]
+      }
+    ]
+  }
