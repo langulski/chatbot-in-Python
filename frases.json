@@ -3,7 +3,7 @@
       {
         "tag": "cumprimentos",
         "patterns": [
-          "Olá",
+          "Ola",
           "oi",
           "Como vai",
           "tem alguém ai?",
@@ -15,11 +15,11 @@
         
         ],
         "responses": [
-          "Olá :-)",
-          "Olá, obrigado por visitar!",
-          "Olá, como posso ajuda-lo?",
+          "Ola :-)",
+          "Ola, obrigado por visitar!, O que posso fazer para voce",
+          "Ola, como posso ajuda-lo?",
           "tem algo em que posso ajudar?",
-          "Em que poderia ser util",
+          "Em que poderia ser util?",
           "O que está procurando?"
         ]
       },
@@ -27,8 +27,8 @@
         "tag": "adeuses",
         "patterns": ["Tchal", "Até mais", "xau","até","falow","flw"],
         "responses": [
-          "Até mais, obrigado por visitar!",
-          "Tenha um bom dia",
+          "Ate mais, obrigado por visitar!",
+          "Tenha um bom dia!",
           "Tchal! até a próxima visita."
         ]
       },
@@ -40,28 +40,32 @@
       {
         "tag": "items",
         "patterns": [
-          "O que vocês vendem?",
+          "O que voces vendem?",
           "Quais os tipos de itens que vendem?",
           "O que anunciam?",
           "O que fazem"
           
         ],
         "responses": [
-          "Nós vendemos bolos e cookies =3",
-          "Nós vendemos bolos e cookies =3"
+          "Nos vendemos bolos e cookies =3",
+          "Nos vendemos bolos e cookies =3"
         ]
       },
       {
         "tag": "pagamentos",
         "patterns": [
-          "Vocês aceitam cartão de crédito?",
-          "Vocês aceitam Mastercard?",
+          "Voces aceitam cartão de crédito?",
+          "Voces aceitam Mastercard?",
           "Posso pagar por paypal?",
-          "Aceitam somente dinheiro?"
+          "Aceitam somente dinheiro?",
+          "formas de pagamento",
+          "tipo de pagamento",
+          "pagamentos",
+          "pagar"
         ],
         "responses": [
-          "Nós aceitamos Mastercard, Paypal, PIX e dinheiro",
-          "Nós aceitamos Mastercard, Paypal, PIX e dinheiro"
+          "Nos aceitamos Mastercard, Paypal, PIX e dinheiro",
+          "Nos aceitamos Mastercard, Paypal, PIX e dinheiro"
         ]
       },
       {
@@ -70,7 +74,9 @@
           "Quanto tempo o delivery demora?",
           "Quando demora para chegar?",
           "Quando que chega meu bolo?",
-          "Quando que chega meu cookie?"
+          "Quando que chega meu cookie?",
+          "envio",
+          "tempo de envio"
         ],
         "responses": [
           "O envio demora entre 1 a 3 dias ;)",

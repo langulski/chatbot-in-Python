@@ -10,7 +10,7 @@ def tokenize(sentence):
 def stem(word):
     return stemmer.stem(word.lower())
 
-def bag_of_words(tokenzied_sentence,todas_palavras):
+def bag_of_words(tokenized_sentence,words):
     
     """
     frase = ["Oi","Como","está",você"]
@@ -18,12 +18,12 @@ def bag_of_words(tokenzied_sentence,todas_palavras):
     bog = [0, 1, 0, 1, 0, 0, 0]
 
     """
-    tokenzied_sentence = [stem(w) for w in tokenzied_sentence]
-
-    bag = np.zeros(len(todas_palavras),dtype=np.float32)
-    for idx,w in enumerate(todas_palavras):
-        if w in tokenzied_sentence:
-            bag[idx]=1.0
+    sentence_words = [stem(word) for word in tokenized_sentence]
+    # initialize bag with 0 for each word
+    bag = np.zeros(len(words), dtype=np.float32)
+    for idx, w in enumerate(words):
+        if w in sentence_words: 
+            bag[idx] = 1
     return bag
 
 
