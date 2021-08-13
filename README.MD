@@ -6,6 +6,10 @@
   
   <div>Escrito em Python, o bot funciona com o uso do "Pytorch"  e exemplifica o funcionamento de redes neurais.</div>
   
+  
+  
+  source: https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
+  
 
   
   
