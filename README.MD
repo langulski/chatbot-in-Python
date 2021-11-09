@@ -50,7 +50,7 @@ We named the bot as "Helo" and she was trained to understand questions asked in 
 - [x] Flask
 
 ### Challenges
-- Training the bot to understand the words was challenging, especially beucase Portuguese have some special characters like (^~`´).
+- Training the bot to understand the words was challenging, especially because Portuguese have some special characters like (^~`´).
 
 ### Improvements
  - The JSON file does not have much info, we could improve this in order to get better responses from the bot.
