@@ -30,12 +30,14 @@ model.eval()
 
 bot_name =  "Helo"
 
-print("Olá vamos conversar! digite 'sair' para sair do chat")
-while True:
-    sentence = input('Você:')
-    if sentence == "sair":
-        break
-    sentence = tokenize(sentence)
+# print("Olá vamos conversar! digite 'sair' para sair do chat")
+# while True:
+#     sentence = input('Você:')
+#     if sentence == "sair":
+#         break
+
+def get_response(msg):
+    sentence = tokenize(msg)
     X = bag_of_words(sentence, todas_palavras)
     X = X.reshape(1,X.shape[0])
     X = torch.from_numpy(X).to(device)
@@ -49,7 +51,17 @@ while True:
     if prob.item() >0.75:
         for frase in frases["frases"]:
             if tag == frase["tag"]:
-                print(f"{bot_name}: {random.choice(frase['responses'])}")
+                return random.choice(frase['responses'])
+                
+    return 'Eu nao entendi...'
 
-    else:
-        print(f"{bot_name}: Eu nao entendi o que vc falou...")
+if __name__ == "__main__":
+    print('vamos conversar! (Digite "sair" para sair do chat)')
+    while True:
+        # frase da pergunta por exemplo voces aceitam pix?
+        sentence = input("Você: ")
+        if sentence == "sair":
+            break
+
+        resp = get_response(sentence)
+        print(resp)
