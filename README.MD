@@ -3,7 +3,7 @@
 <p align="center"><img src="https://cdn-icons-png.flaticon.com/512/2040/2040946.png" alt="DIAMOND" width="25%" border="0"><br /></p>
 
 
-<h1 align="center"> 🤖 Chat Bot using Pytorch Neural nets </h1>
+<h1 align="center"> 🤖 Chat Bot using Pytorch | Neural nets </h1>
 
 ## Project Status
 :heavy_check_mark: Complete
