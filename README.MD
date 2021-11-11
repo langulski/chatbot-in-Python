@@ -18,7 +18,7 @@
 ## Objective
 
 The objective of this project is to build a simple chatbot and deploy it on a web-page using "Flask".
-The bot was created using Pytorch and exemplifies how a neural net works. The project overall is very simple and provides a understanding of these subjects.
+The bot was created using Pytorch and exemplifies how a neural net works. The project overall is very simple and provides an understanding of these subjects.
 
 
 
